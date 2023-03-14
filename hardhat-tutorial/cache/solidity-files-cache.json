@@ -1,0 +1,186 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/opt/defi_tools/solidity_learning/DAO-Tut/hardhat-tutorial/contracts/CryptoDevsDAO.sol": {
+      "lastModificationDate": 1678810164747,
+      "contentHash": "9a51540dbe453dd52f6a0132d2b7062b",
+      "sourceName": "contracts/CryptoDevsDAO.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "CryptoDevsDAO",
+        "ICryptoDevsNFT",
+        "IFakeNFTMarketPlace"
+      ]
+    },
+    "/opt/defi_tools/solidity_learning/DAO-Tut/hardhat-tutorial/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1670021667253,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/opt/defi_tools/solidity_learning/DAO-Tut/hardhat-tutorial/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1670021667207,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/opt/defi_tools/solidity_learning/DAO-Tut/hardhat-tutorial/contracts/FakeNFTMarketPlace.sol": {
+      "lastModificationDate": 1678811629138,
+      "contentHash": "3432e0d9d07db9c93cedcad372f9e32c",
+      "sourceName": "contracts/FakeNFTMarketPlace.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "FakeNFTMarketPlace"
+      ]
+    },
+    "/opt/defi_tools/solidity_learning/DAO-Tut/hardhat-tutorial/contracts/Lock.sol": {
+      "lastModificationDate": 1678810304548,
+      "contentHash": "57d58d406d0752b7d0ffde073aea607d",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    }
+  }
+}

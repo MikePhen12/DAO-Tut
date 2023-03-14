@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "available",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "purchase",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tokens",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"available(uint256)": {
+					"details": "available() checks whether the given tokenId has already been sold or not",
+					"params": {
+						"_tokenId": "- the tokenId to check for"
+					}
+				},
+				"getPrice()": {
+					"details": "getPrice() returns the price of one NFT"
+				},
+				"purchase(uint256)": {
+					"details": "purchase() accepts ETH and marks the owner of the given tokenId as the caller address",
+					"params": {
+						"_tokenId": "- the fake NFT token Id to purchase"
+					}
+				}
+			},
+			"stateVariables": {
+				"nftPrice": {
+					"details": "Set the purchase price for each Fake NFT"
+				},
+				"tokens": {
+					"details": "Maintain a mapping of Fake TokenID to Owner addresses"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hardhat-tutorial/contracts/FakeNFTMarketplace.sol": "FakeNFTMarketplace"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hardhat-tutorial/contracts/FakeNFTMarketplace.sol": {
+			"keccak256": "0xdef385f8fe1d17443eaf010353a3a48e4260b3ced52f2b7ae9f0be89b676560d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b768de5895fa205923ded998b5e94817c47f84f73be612f6bd3157694294eca4",
+				"dweb:/ipfs/Qmd6mCFQsHomWcLhVWhNDcjVuyYcB7j2ndhBtyy9Bckfjn"
+			]
+		}
+	},
+	"version": 1
+}
