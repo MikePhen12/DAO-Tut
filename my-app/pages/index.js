@@ -1,5 +1,5 @@
 import { Contract, providers } from "ethers";
-import { ethers } from "ethers";
+import { formatEther } from "ethers/lib/utils";
 import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
@@ -377,7 +377,7 @@ export default function Home() {
           <div className={styles.description}>
             Your CryptoDevs NFT Balance: {nftBalance}
             <br />
-            Treasury Balance: {ethers.util.formatEther(treasuryBalance)} ETH
+            Treasury Balance: {formatEther(treasuryBalance)} ETH
             <br />
             Total Number of Proposals: {numProposals}
           </div>
